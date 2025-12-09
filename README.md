@@ -41,7 +41,19 @@ The orchestration adheres to a strict **Sequential Pipeline** pattern:
 ## 🏗️ Folder Structure (Modularity and Clarity)
 
 The project adheres to a clean, modular structure, meeting the **clean folder structure** requirement.
-
+kasparro-ai-agentic-content-generation-system-<name>/ 
+├── agents/ # Dedicated modules for each of the 4 agents 
+    └── (4 agent files) 
+├── data/ # Contains the single raw input file 
+├── docs/ # Mandatory documentation (projectdocumentation.md) 
+├── logic_blocks/ # Reusable content functions & Pydantic models │ 
+    └── data_models.py # Defines all structured models 
+    └── content_logic.py # Implements the reusable content functions (LLM Simulation) 
+├── output/ # Destination for the 3 final JSON files 
+├── templates/ # Holds the definitions for the final page structure 
+    └── page_templates.py 
+├── main.py # The central orchestrator/entry point 
+├── requirements.txt # Project dependencies (e.g., pydantic)
 
 
 ## ⚙️ Content System Engineering
