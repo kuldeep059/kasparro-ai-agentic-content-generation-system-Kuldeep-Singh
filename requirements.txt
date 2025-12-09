@@ -1,0 +1,3 @@
+# We will add libraries like 'langchain' or 'crewai' later if we use them
+# For now, this is just a placeholder, but we recommend Pydantic for validation
+pydantic

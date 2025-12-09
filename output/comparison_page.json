@@ -1,0 +1,31 @@
+{
+    "page_id": "glowboost_vs_competitor",
+    "page_title": "GlowBoost vs. The Competition",
+    "page_type": "comparison_table",
+    "products": [
+        "GlowBoost Vitamin C Serum",
+        "Radiance 12x Brightening Serum"
+    ],
+    "comparison_points": [
+        {
+            "feature": "Active Ingredient",
+            "glowboost": "Vitamin C",
+            "competitor": "Niacinamide"
+        },
+        {
+            "feature": "Target Skin Type",
+            "glowboost": "Oily; Combination",
+            "competitor": "Dry, Normal"
+        },
+        {
+            "feature": "Key Benefit",
+            "glowboost": "Brightening",
+            "competitor": "Texture smoothing"
+        },
+        {
+            "feature": "Price",
+            "glowboost": "\u00e2\u201a\u00b9699",
+            "competitor": "\u20b9999"
+        }
+    ]
+}

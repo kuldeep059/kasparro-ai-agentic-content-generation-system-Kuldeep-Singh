@@ -1,0 +1,40 @@
+{
+    "page_id": "glowboost_product_details",
+    "product_name": "GlowBoost Vitamin C Serum",
+    "page_type": "product_details",
+    "schema_version": "1.0",
+    "sections": [
+        {
+            "section_title": "Product Overview",
+            "content_type": "descriptive_summary",
+            "content": "Introducing the **GlowBoost Vitamin C Serum**, a powerful solution featuring **10% Vitamin C** of pure active ingredient. Specifically formulated for Oily, Combination skin types, this serum is expertly designed to deliver rapid results, focusing on **brightening**."
+        },
+        {
+            "section_title": "Key Specifications",
+            "content_type": "data_points",
+            "data_points": [
+                {
+                    "label": "Concentration",
+                    "value": "10% Vitamin C"
+                },
+                {
+                    "label": "Skin Types",
+                    "value": "Oily; Combination"
+                },
+                {
+                    "label": "Benefits",
+                    "value": "Brightening; Fades dark spots"
+                },
+                {
+                    "label": "Price",
+                    "value": "\u00e2\u201a\u00b9699"
+                }
+            ]
+        },
+        {
+            "section_title": "Usage Instructions",
+            "content_type": "how_to_use",
+            "content": "Apply 2-3 drops in the morning before sunscreen"
+        }
+    ]
+}
