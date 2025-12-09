@@ -41,3 +41,38 @@ The orchestration adheres to a strict **Sequential Pipeline** pattern:
 ## 🏗️ Folder Structure (Modularity and Clarity)
 
 The project adheres to a clean, modular structure, meeting the **clean folder structure** requirement.
+
+
+
+## ⚙️ Content System Engineering
+
+### 1. Reusable Logic Blocks Reasoning
+
+The `logic_blocks/content_logic.py` file contains functions that simulate a specific LLM task, promoting **composability** and clean boundaries.
+
+| Logic Block | Purpose/Reasoning |
+| :--- | :--- |
+| `generate_categorized_questions()` | Fulfills the **15+ questions** requirement; uses facts from the `ProductModel` to ensure contextual relevance, simulating creative ideation. |
+| `generate_faq_answers()` | Generates **5+ Q&A pairs** by extracting and formatting facts from the `ProductModel`, ensuring answers are factual and consistent with the source data. |
+| `generate_descriptive_summary_block()` | Generates marketing copy by combining key product facts, acting as the initial descriptive content for the product page. |
+
+### 2. Template Engine Design Reasoning
+
+A simple **Template Engine of our own design** is implemented in `templates/page_templates.py` using Python dictionaries.
+
+**Reasoning:** The dedicated **Page Assembler Agent** performs dynamic substitution and list injection. This separation ensures that the content generation logic remains separate from the output structure, allowing for easy updates to the final JSON schema without affecting the content creation rules.
+
+---
+
+## ▶️ Execution
+
+1.  Clone the repository.
+2.  Activate a virtual environment and install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  Run the orchestrator:
+    ```bash
+    python main.py
+    ```
+4.  The final JSON output files will be created in the `output/` directory.
